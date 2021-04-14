@@ -1,0 +1,26 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      }
+    }],
+    "stage-2"
+  ],
+  // 下面这一行是原来就有的
+  "plugins": ["transform-vue-jsx", "transform-runtime"]
+
+
+  // .babelrc
+  // 下面这些是下载了babel-plugin-import --save-dev后的配置
+  // "plugins": [["import", {
+  //   "libraryName": "view-design",
+  //   "libraryDirectory": "src/components"
+  // }]]
+}
+
+  
+
+
+
